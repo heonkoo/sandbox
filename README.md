@@ -9,3 +9,12 @@ ForismaticClient does the following:
 4. Displays to stdout the quote and author
 
 Unit test class: ForismaticClientTest
+
+To build the project from command line: 
+- This project uses Java 17
+- cd to project root directory
+- mvn clean package
+
+To run the main class from command line:
+- cd to project root directory
+- java -jar target/sandbox-0.0.1-SNAPSHOT.jar English (or Russian)
